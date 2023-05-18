@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { CounterHoc } from '../HOC/CounterHoc'
 
-const Test = ({ counter,addCount,minusCount,title}) => {
+const Counter2 = ({ counter,addCount,minusCount,title}) => {
    
     return (
         <>
@@ -13,4 +13,4 @@ const Test = ({ counter,addCount,minusCount,title}) => {
     )
 }
 
-export default CounterHoc(Test,'TEST')
+export default CounterHoc(Counter2,'Counter2')

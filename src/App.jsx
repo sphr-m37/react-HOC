@@ -1,16 +1,16 @@
 import React from 'react'
-import Test from './componnents/Test'
-import Demo from './componnents/Demo'
+import Counter1 from './componnents/Counter1'
+import Counter2 from './componnents/Counter2'
 
 import './App.css'
 
 export const App = () => {
   return (
     <div>
-      <Test />
+      <Counter1 />
       <hr />
       <hr />
-      <Demo />
+      <Counter2 />
     </div>
   )
 }

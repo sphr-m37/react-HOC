@@ -1,7 +1,7 @@
 import { CounterHoc } from "../HOC/CounterHoc"
 
-const Demo = ({counter,addCount,minusCount,title}) => {
-    
+const Counter1 = ({ counter, addCount, minusCount, title }) => {
+
     return (
         <>
             <h2>{title} component</h2>
@@ -11,4 +11,4 @@ const Demo = ({counter,addCount,minusCount,title}) => {
         </>
     )
 }
-export default CounterHoc(Demo,'DEMO')
+export default CounterHoc(Counter1, 'Counter1')
