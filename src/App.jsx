@@ -1,26 +1,21 @@
 import React from 'react'
-import Counter1 from './componnents/Counter1'
-import Counter2 from './componnents/Counter2'
-import ToggleComponent from './componnents/ToggleComponent'
+import CounterI from './components/CounterI'
+import CounterII from './components/CounterII'
+import ToggleI from './components/ToggleI'
+import ToggleII from './components/ToggleII'
 
 import './App.css'
-import TodggleComponentClone from './componnents/TodggleComponentClone'
 
 export const App = () => {
   return (
     <div>
+      <ToggleI />
       <hr />
+      <CounterI />
       <hr />
-      <ToggleComponent />
+      <ToggleII />
       <hr />
-      <hr />
-      <Counter1 />
-      <hr />
-      <hr />
-      <TodggleComponentClone />
-      <hr />
-      <hr />
-      <Counter2 />
+      <CounterII />
     </div>
   )
 }

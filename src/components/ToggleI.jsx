@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
-import { ToggleHoc } from '../HOC/ToggleHoc'
+import React from 'react'
+import { withToggle } from '../HOC/withToggle'
 
-const ToggleComponent = ({ isShow, toggleHandler }) => {
+const ToggleI = ({ isShow, toggleHandler }) => {
 
     return (
         <div className='toggleItem'>
@@ -11,4 +11,4 @@ const ToggleComponent = ({ isShow, toggleHandler }) => {
     )
 }
 
-export default ToggleHoc(ToggleComponent)
+export default withToggle(ToggleI)

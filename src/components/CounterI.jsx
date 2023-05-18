@@ -1,6 +1,7 @@
-import { CounterHoc } from "../HOC/CounterHoc"
+import { withCounter } from "../HOC/withCounter"
 
-const Counter1 = ({ counter, addCount, minusCount, title }) => {
+
+const CounterI = ({ counter, addCount, minusCount, title }) => {
 
     return (
         <>
@@ -11,4 +12,4 @@ const Counter1 = ({ counter, addCount, minusCount, title }) => {
         </>
     )
 }
-export default CounterHoc(Counter1, 'Counter1')
+export default withCounter(CounterI, 'Counter1')

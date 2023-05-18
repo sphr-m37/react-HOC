@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export const ToggleHoc = (Component) => {
+export const withToggle = (Component) => {
 
     const newComponent = () => {
     const [isShow, setIsShow] = useState(false)
