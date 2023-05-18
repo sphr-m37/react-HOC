@@ -1,4 +1,20 @@
-body{
+body {
     display: flex;
     justify-content: center;
+}
+
+.toggleItem {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:0 0 50px;
+    position: relative;
+}
+
+.toggleItem p {
+
+    color: red;
+    position: absolute;
+    top: 30%;
+    left: 0;
 }
