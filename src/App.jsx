@@ -22,5 +22,6 @@ export const App = () => {
       <hr />
       {questins.map(question => <Questin key={question.id} {...question} />)}
     </div>
+    
   )
 }
